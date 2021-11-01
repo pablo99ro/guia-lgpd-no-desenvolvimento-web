@@ -1,0 +1,97 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: white;
+}
+
+/* Botão padrão customizado */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Previne herença do `body` */
+  background-color: white;
+  border: .05rem solid white;
+}
+
+/* Estrutura base */
+html,
+body {
+  height: 100%;
+  background-color: #303030;
+  padding-bottom: 6rem;
+}
+
+body {
+  color: white;
+  /*text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);*/
+  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+}
+
+.btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+/* Modificações */
+.titulo-pagina {
+  text-align: left;
+}
+
+.home-content {
+  text-align: center;
+}
+
+/*
+.home-img {
+  border-radius: 50%;
+}
+*/
+
+header {
+  padding-bottom: 1rem;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  text-align: center;
+}
+
+.card {
+	background-color: #454545;
+}
+
+.card-body {
+  background-color: #454545;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: white;
+}
+
+.card-img-top {
+  align-content: center;
+  width: 128px;
+  max-height: 128px;
+  margin: 10px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.dark-theme {
+  background-color: #404040;
+}
